@@ -9,5 +9,4 @@ class SbwapApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }
