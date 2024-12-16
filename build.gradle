@@ -105,6 +105,9 @@ dependencies {
 	// Mockitoを使用するための設定
 	testImplementation 'org.mockito:mockito-core:5.14.2'
 
+	// SpringDocを使用するための設定
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.7.0'
+
 	// ライブラリプロジェクトを使用するための設定
 	implementation project(':sbwap_sblib')
 }
