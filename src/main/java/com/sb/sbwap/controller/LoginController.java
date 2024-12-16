@@ -20,10 +20,10 @@ public class LoginController {
 	}
 
 	@PostMapping("/login")
-	public String postLogin(String mailAddress, String password) {
+	public String postLogin(String username, String password) {
 
 		// 認証成功ならばトップ画面、認証失敗ならログイン画面に遷移する
-		if (accountService.auth(mailAddress, password)) {
+		if (accountService.auth(username, password)) {
 			return "top";
 		}
 		return "login";
